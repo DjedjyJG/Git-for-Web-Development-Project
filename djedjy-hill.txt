@@ -72,7 +72,7 @@ https://codepen.io/dhillpierre17/pen/bGNxyjB
     - It would be useful when you want to make changes to certain elements that are within the parent selector while not affecting elements within the child selector.
 
     23. How do you select all links within a div with the class of sidebar?
-    - 
+    - We do so by the following -> .sidebar a {};
 
     24. What is a pseudo selector?
     - It's a tool used to describe a special state of an element.
@@ -110,5 +110,10 @@ https://codepen.io/dhillpierre17/pen/bGNxyjB
 
     35. How often should I commit to github?
     - You want to commit as many times as possible as it is github's version for saving your work. 
-    36. What is the command we would use to push our repo up to github? 
+
+    36. What is the command we would use to push our repo up to github?
+    - In order to push it, we use the git push command.
+
     37. Walk me through Lambda's git flow. 
+    - In order to master real life experiences in which each team apply their own strategies for submitting projects or keeping them organized, Lambda teaches Forking and Branching. Forking is the equivalent of copying the project into your very own version so that you can edit, change, and do whatever that you need to do with it without changing the original project itself. Branching is used so that you modify the project on your own branch which has your first name (dash) your last name on it and not working on the master branch. 
+    - For ex: With a new project, you first fork it, you add your TL as collaborator, you clone the project, then you branch the project, you then push the project to origin, at this point you'll be able to compare your fork with the master branch and you 'll be able to add your TL as a reviewer so that you can request a pull into the main master branch. 
