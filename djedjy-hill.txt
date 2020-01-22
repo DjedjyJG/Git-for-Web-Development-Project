@@ -1,0 +1,119 @@
+https://codepen.io/dhillpierre17/pen/bGNxyjB
+
+1. What is Semantic HTML? 
+    - Semantic HTML is a tool used in order to provide meaning to a HTML code so that any user who is working on the code can better read and navigate through the HTML.
+    
+    2. What is HTML used for? 
+    - HTML is like the skeleton of a program. It is used to construct a program and give it foundation such as a header, a body, a footer etc.
+    
+    3. What is an attribute and where do we put it? 
+    - An attribute is a way to provide functionality or additional information to certain element types that, without them, could otherwise not function properly. 
+    - We put it in the start tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    -  The h1 tag is used to indicate that a text is considered as a main title and thus would have a bigger font than the other texts.
+    - It is usually used once per page to indicate that the text is the main title text.
+
+    5. Name two tags that have required attributes
+    - They are: the img tag and the anchor(a) tag.
+
+    6. What do we put in the head of our HTML document? 
+    - The head usually defines the data about data of a HTML document. It usually has the title, the style, meta and links, script and base.
+
+    7. What is an id? 
+    - An id is to specify an unique piece of information for an HTML element. It is heavier than a class and anything above a class.
+
+    8. What elements can I add an id to?
+    - You can add an id to any element where adding an id makes sense. 
+
+    9. How many times can I use the same id on a page? 
+    - You can only use the same id once on a page.
+
+    10. What is a class? 
+    - a class attributes defines equal styles for elements with the same class name.
+
+    11. What elements can I add a class to? 
+    - You can add a class to any elements if it makes sense to add one.
+
+    12. How many times can I use the same class on a page? 
+    - You can add multiple class that are the same on a page.
+
+    13. How do I get my link to open in a new tab?
+    - If you sent a target attribute to "_blank", the link will open in a new tab.
+
+    14. What is the alt attribute used for? 
+    - The alt attribute specifies an alternate text for an image.
+
+    15. How do I reference an id?
+    - In order to reference an id, you use the ->' # '<- symbole 
+
+    16. What is the difference between a section and a div
+    - The section tag defines sections within a document such as headers, footers, etc. whereas a div tag defines a division in an HTML document.
+
+    17. What is CSS used for? 
+    - CSS is used to decorate, style an HTML document much like adding muscles to the skeleton. 
+
+    18. How to we select an element? Example - every h2 on the page
+    - To select an element you simply use the name of the element followed by brackets -> {} <-, finishing with a semicolon(;). Ex: h2 {};
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    - An id is heavier than a class. This means that a change in a class attribute will not affect an element with an id attribute.
+    - If I want to change the style of multiple elements that are similar, I can use a class to make that change without having to individually change the style for each and every of those similar elements. 
+    - If  within an HTML document, the document has multiple of the same element but I only want to modify one specific element without changing the others, I can use an id attribute that specific element.
+
+    20. How do we select classes in CSS?
+    -Selecting classes in CSS is done by a period(.) before adding the name of the class, followed by brackets, finishing with a semicolon(;). -> {} <-. Ex: .myExample {};
+
+    21. How do we select a p element with a single class of “human””?
+    -  We do this by : p .human {}; 
+
+    22. What is a parent child selector? When would this be useful? 
+    - Parent/ Child selector describes element which specifies the parent element or the child element that is to be selected. 
+    - It would be useful when you want to make changes to certain elements that are within the parent selector while not affecting elements within the child selector.
+
+    23. How do you select all links within a div with the class of sidebar?
+    - We do so by the following -> .sidebar a {};
+
+    24. What is a pseudo selector?
+    - It's a tool used to describe a special state of an element.
+
+    25. What do we use the change the spacing between lines?
+    - In order to change it, we use the line-height property in CSS.
+
+    26. What do we use to change the spacing between letters?
+    - In order to change it, we use the letter-spacing property in CSS.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    - In order to change it, we use the text-transform property in CSS.
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    - In order to modify it, we use the following property within an element:-> border: 1px dotted black; <-
+
+    29. How do I select everything on the page? 
+    - To select everything, you use the * selector.
+
+    30. How do I write a comment in CSS?
+    - In order to write a comment you use the forward dash followed by a star, and close with a star followed by the forward dash. Ex: /* This is my comment */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    - You can find that out by looking at the command line in which it will tell you where you are specifically in that moment.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    - You can find that out by entering ->ls<- in the command line.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    - You can remove a file with the command -> rm <- followed by the name of the file you wish to remove.
+    - You have to be careful because there will be no prompt asking if you are sure about your action and the file will not appear in your trash can, it will simply vanish for ever.
+
+    34. Why should I use version control? 
+    Version control allows you to work on a project while many other people are working on that same project with the advantage of being able to save all work and merging the output together and also being able to see previous versions of the project without having to save each version using another name.
+
+    35. How often should I commit to github?
+    - You want to commit as many times as possible as it is github's version for saving your work. 
+
+    36. What is the command we would use to push our repo up to github?
+    - In order to push it, we use the git push command.
+
+    37. Walk me through Lambda's git flow. 
+    - In order to master real life experiences in which each team apply their own strategies for submitting projects or keeping them organized, Lambda teaches Forking and Branching. Forking is the equivalent of copying the project into your very own version so that you can edit, change, and do whatever that you need to do with it without changing the original project itself. Branching is used so that you modify the project on your own branch which has your first name (dash) your last name on it and not working on the master branch. 
+    - For ex: With a new project, you first fork it, you add your TL as collaborator, you clone the project, then you branch the project, you then push the project to origin, at this point you'll be able to compare your fork with the master branch and you 'll be able to add your TL as a reviewer so that you can request a pull into the main master branch. 
